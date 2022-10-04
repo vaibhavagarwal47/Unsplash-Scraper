@@ -30,6 +30,8 @@ for cat in categories:
         temp=links.get('src')
         imgLinksList.append(temp.split("?")[0])
     db.append(imgLinksList)
+    
+#Printing all the image links
 
 for cat in db:
     for c in cat:
